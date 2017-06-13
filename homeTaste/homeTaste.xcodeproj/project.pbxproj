@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		56AF9F581EEFECC00080B8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F571EEFECC00080B8DC /* AppDelegate.swift */; };
-		56AF9F5A1EEFECC00080B8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F591EEFECC00080B8DC /* ViewController.swift */; };
+		56AF9F5A1EEFECC00080B8DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F591EEFECC00080B8DC /* HomeViewController.swift */; };
 		56AF9F5D1EEFECC00080B8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AF9F5B1EEFECC00080B8DC /* Main.storyboard */; };
 		56AF9F5F1EEFECC00080B8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AF9F5E1EEFECC00080B8DC /* Assets.xcassets */; };
 		56AF9F621EEFECC00080B8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AF9F601EEFECC00080B8DC /* LaunchScreen.storyboard */; };
 		56AF9F6D1EEFECC00080B8DC /* homeTasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F6C1EEFECC00080B8DC /* homeTasteTests.swift */; };
 		56AF9F781EEFECC00080B8DC /* homeTasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F771EEFECC00080B8DC /* homeTasteUITests.swift */; };
+		56AF9F861EEFEF620080B8DC /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F851EEFEF620080B8DC /* ExperienceViewController.swift */; };
+		56AF9F8C1EEFF0FA0080B8DC /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F8B1EEFF0FA0080B8DC /* ArticleViewController.swift */; };
+		56AF9F8E1EEFF18B0080B8DC /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F8D1EEFF18B0080B8DC /* DestinationViewController.swift */; };
+		56AF9F901EEFF21A0080B8DC /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F8F1EEFF21A0080B8DC /* BookingViewController.swift */; };
+		56AF9F921EEFF3DA0080B8DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF9F911EEFF3DA0080B8DC /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		56AF9F541EEFECC00080B8DC /* homeTaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeTaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AF9F571EEFECC00080B8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56AF9F591EEFECC00080B8DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56AF9F591EEFECC00080B8DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		56AF9F5C1EEFECC00080B8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56AF9F5E1EEFECC00080B8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56AF9F611EEFECC00080B8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		56AF9F731EEFECC00080B8DC /* homeTasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeTasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AF9F771EEFECC00080B8DC /* homeTasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTasteUITests.swift; sourceTree = "<group>"; };
 		56AF9F791EEFECC00080B8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AF9F851EEFEF620080B8DC /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		56AF9F8B1EEFF0FA0080B8DC /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		56AF9F8D1EEFF18B0080B8DC /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		56AF9F8F1EEFF21A0080B8DC /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		56AF9F911EEFF3DA0080B8DC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				56AF9F571EEFECC00080B8DC /* AppDelegate.swift */,
-				56AF9F591EEFECC00080B8DC /* ViewController.swift */,
-				56AF9F5B1EEFECC00080B8DC /* Main.storyboard */,
+				56AF9F871EEFEF780080B8DC /* Controller */,
+				56AF9F8A1EEFEFA60080B8DC /* Model */,
+				56AF9F881EEFEF920080B8DC /* View */,
 				56AF9F5E1EEFECC00080B8DC /* Assets.xcassets */,
-				56AF9F601EEFECC00080B8DC /* LaunchScreen.storyboard */,
 				56AF9F631EEFECC00080B8DC /* Info.plist */,
 			);
 			path = homeTaste;
@@ -123,6 +133,35 @@
 				56AF9F791EEFECC00080B8DC /* Info.plist */,
 			);
 			path = homeTasteUITests;
+			sourceTree = "<group>";
+		};
+		56AF9F871EEFEF780080B8DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56AF9F8B1EEFF0FA0080B8DC /* ArticleViewController.swift */,
+				56AF9F8F1EEFF21A0080B8DC /* BookingViewController.swift */,
+				56AF9F8D1EEFF18B0080B8DC /* DestinationViewController.swift */,
+				56AF9F851EEFEF620080B8DC /* ExperienceViewController.swift */,
+				56AF9F591EEFECC00080B8DC /* HomeViewController.swift */,
+				56AF9F911EEFF3DA0080B8DC /* ProfileViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		56AF9F881EEFEF920080B8DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56AF9F5B1EEFECC00080B8DC /* Main.storyboard */,
+				56AF9F601EEFECC00080B8DC /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		56AF9F8A1EEFEFA60080B8DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AF9F5A1EEFECC00080B8DC /* ViewController.swift in Sources */,
+				56AF9F861EEFEF620080B8DC /* ExperienceViewController.swift in Sources */,
+				56AF9F8C1EEFF0FA0080B8DC /* ArticleViewController.swift in Sources */,
+				56AF9F5A1EEFECC00080B8DC /* HomeViewController.swift in Sources */,
 				56AF9F581EEFECC00080B8DC /* AppDelegate.swift in Sources */,
+				56AF9F921EEFF3DA0080B8DC /* ProfileViewController.swift in Sources */,
+				56AF9F901EEFF21A0080B8DC /* BookingViewController.swift in Sources */,
+				56AF9F8E1EEFF18B0080B8DC /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +560,7 @@
 				56AF9F7E1EEFECC00080B8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56AF9F7F1EEFECC00080B8DC /* Build configuration list for PBXNativeTarget "homeTasteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +569,7 @@
 				56AF9F811EEFECC00080B8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56AF9F821EEFECC10080B8DC /* Build configuration list for PBXNativeTarget "homeTasteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +578,7 @@
 				56AF9F841EEFECC10080B8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
