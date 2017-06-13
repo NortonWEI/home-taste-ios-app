@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  homeTaste
 //
-//  Created by 魏文洲 on 13/6/2017.
+//  Created by Norton Wei on 13/6/2017.
 //  Copyright © 2017 WEI Wenzhou. All rights reserved.
 //
 
