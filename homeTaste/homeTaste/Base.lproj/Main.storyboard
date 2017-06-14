@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,13 +21,61 @@
                     <view key="view" contentMode="scaleToFill" id="H0N-Fg-ZPx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lhh-eI-zHC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnQ-0D-M1I">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainCover" translatesAutoresizingMaskIntoConstraints="NO" id="Syf-Dj-5y3">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="qnQ-0D-M1I" secondAttribute="trailing" id="Ycw-w4-DIR"/>
+                                    <constraint firstItem="qnQ-0D-M1I" firstAttribute="top" secondItem="Lhh-eI-zHC" secondAttribute="top" id="eaX-cj-qAS"/>
+                                    <constraint firstItem="qnQ-0D-M1I" firstAttribute="leading" secondItem="Lhh-eI-zHC" secondAttribute="leading" id="o1d-UK-rfX"/>
+                                    <constraint firstAttribute="bottom" secondItem="qnQ-0D-M1I" secondAttribute="bottom" id="w56-4U-aTa"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJa-36-TRI" userLabel="SearchButton">
+                                <rect key="frame" x="309" y="20" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="TIY-mC-KVI"/>
+                                    <constraint firstAttribute="height" constant="50" id="rSE-cQ-7Xw"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="main-page-search-button"/>
+                                <connections>
+                                    <action selector="searchButtonClicked:" destination="hwt-B1-RVg" eventType="touchUpInside" id="6um-ru-UwF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VJa-36-TRI" firstAttribute="top" secondItem="Dec-wB-vcy" secondAttribute="bottom" id="56t-TK-BOM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VJa-36-TRI" secondAttribute="trailing" id="UG4-n7-1yh"/>
+                            <constraint firstAttribute="trailing" secondItem="Lhh-eI-zHC" secondAttribute="trailing" id="ZYQ-mA-JUW"/>
+                            <constraint firstItem="qnQ-0D-M1I" firstAttribute="width" secondItem="H0N-Fg-ZPx" secondAttribute="width" id="gKo-zz-Ibj"/>
+                            <constraint firstItem="qnQ-0D-M1I" firstAttribute="height" secondItem="H0N-Fg-ZPx" secondAttribute="height" id="ijG-jT-XKw"/>
+                            <constraint firstItem="Lhh-eI-zHC" firstAttribute="leading" secondItem="H0N-Fg-ZPx" secondAttribute="leading" id="s6r-uq-m2k"/>
+                            <constraint firstItem="Lhh-eI-zHC" firstAttribute="bottom" secondItem="ell-dR-kmK" secondAttribute="top" id="tPp-04-RRW"/>
+                            <constraint firstItem="Lhh-eI-zHC" firstAttribute="top" secondItem="H0N-Fg-ZPx" secondAttribute="top" id="wsd-ZP-Tkg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="Ei4-3P-StR"/>
+                    <connections>
+                        <outlet property="coverImage" destination="Syf-Dj-5y3" id="6oL-0l-zcU"/>
+                        <outlet property="scrollView" destination="Lhh-eI-zHC" id="1V7-7K-eoL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72X-tn-kbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2146" y="139"/>
+            <point key="canvasLocation" x="2144.8000000000002" y="138.98050974512745"/>
         </scene>
         <!--Experience-->
         <scene sceneID="n9K-d6-Yal">
@@ -110,6 +159,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="KVb-8r-LIc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="NGL-Ya-gsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -126,4 +176,8 @@
             <point key="canvasLocation" x="892" y="1567"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MainCover" width="1920" height="1080"/>
+        <image name="main-page-search-button" width="500" height="500"/>
+    </resources>
 </document>
